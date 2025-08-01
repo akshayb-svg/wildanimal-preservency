@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Earth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: #4CAF50;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin-right: 50px;
+        }
+        header i{
+            font-size: 30px;
+            color: white;
+            margin-bottom: 5px;
+        }
+        #contact{
+            position: absolute;
+            right: 20px;
+        }
+        #echoes {
+            font-size: 90px;
+            text-shadow: 2px 2px 2px black;
+            color: darkorange;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .eleph{
+            position: relative;
+            background-size: cover;
+            background-image: url('eleph.jpeg');
+            height: 600px;
+            align-items: center;
+            text-align: center;
+            display: flex;
+        }
+        .first-content {
+            background-image: url('deer.jpg');
+            background-size: cover;
+            height: 345px;
+            width: 98%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #87CEEB;
+            text-align: justify;
+            border-radius: 10px;
+            box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .first-content p {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        h1{
+            height: 60px;
+            background-image: url('backimg.jpg');
+            color: #4CAF50;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            align-content: center;
+        }
+        .second{
+            color: #FF8C00;
+            font-weight: bold;
+        }
+        button{
+            background-image: url('backimg.jpg');
+            width: 95%;
+            height: 50px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-house"></i>
+        <a href="main.html"></a>
+        <a href="endangered.html">Endangered animals</a>
+        <a href="about.html">About us</a>
+        <a href="sign-up.html" id="contact">Contact us</a>
+    </header>
+    <div class="eleph">
+        <p id="echoes">Echoes of Earth</p>
+    </div>
+    <div class="main-content">
+        <div id="heading"><center><h1>Wildlife Preservency: Protecting Nature’s Legacy</h1></center></div>
+        <center><div class="first-content">
+            <p>Wildlife preservency refers to the conservation and protection of wild animals, plants, and 
+                    their natural habitats to maintain ecological balance and biodiversity. As human activities increasingly
+                    encroach on forests, wetlands, and grasslands, wildlife faces severe threats including habitat loss,
+                    pollution, poaching, and climate change. Preserving wildlife is essential not only for the survival of
+                    species but also for the health of ecosystems that support human life.
+                    Efforts in wildlife preservency include the creation of national parks, wildlife sanctuaries, 
+                    and biosphere reserves where human interference is limited or regulated. Organizations and 
+                    governments also run breeding programs, anti-poaching patrols, and awareness campaigns to 
+                    protect endangered species.</p>
+            <img src="deer.png.webp" width="100%" height="100%" style="border-radius: 10px;">
+        </div></center>
+        <center><div class="first-content second">
+            <img src="wild.jpeg" width="100%" height="100%" style="border-radius: 10px;">
+            <p>Modern wildlife preservation also involves scientific research, satellite monitoring, and 
+            collaboration with local communities to ensure sustainable coexistence. Laws like the Wildlife 
+            Protection Act (India) and global agreements like CITES help regulate wildlife trade and enforce 
+            conservation policies.
+            Wildlife preservency is not just about saving animals; it's about preserving Earth’s natural 
+            heritage for future generations. Every species plays a role in the ecosystem, and protecting them 
+            ensures a healthier planet. Public support, education, and responsible practices can greatly 
+            contribute to successful conservation efforts.</p>
+        </div></center>
+        <a href="donation.html"><button id="donate">Donate</button></a>
+    </div>
+</body>
+</html>
